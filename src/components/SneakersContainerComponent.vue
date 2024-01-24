@@ -20,18 +20,22 @@
   
           <q-separator />
   
-          <q-tab-panels v-model="tab" animated class="bg-orange-1 text-dark text-center">
+          <q-tab-panels v-model="tab" animated class="card-container">
             <q-tab-panel name="jordan">
-              <div class="text-h6">Mails</div>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <div class="cards">
+                    <SneakerComponent/>
+                    <SneakerComponent/>
+                    <SneakerComponent/>
+                    <SneakerComponent/>
+                </div>
             </q-tab-panel>
   
-            <q-tab-panel name="lebron" class="bg-grey-9 text-white">
+            <q-tab-panel name="lebron">
               <div class="text-h6">Alarms</div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </q-tab-panel>
   
-            <q-tab-panel name="kobe" class="bg-lime-1 text-dark">
+            <q-tab-panel name="kobe">
               <div class="text-h6">Movies</div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </q-tab-panel>
@@ -43,6 +47,7 @@
   
 <script setup>
     import { ref } from 'vue'
+import SneakerComponent from './SneakerComponent.vue';
 
     const tab = ref('jordan')
 
@@ -68,6 +73,10 @@
 .about-section p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
+}
+
+.card-container .cards{
+    display: flex;
 }
 
 </style>
