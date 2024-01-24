@@ -1,11 +1,13 @@
 <template>
   <div>
     <BannerComponent/>
+    <SneakersContainerComponent/>
   </div>
 </template>
 
 <script setup>
 import BannerComponent from './components/BannerComponent.vue';
+import SneakersContainerComponent from './components/SneakersContainerComponent.vue';
 
 
 </script>
