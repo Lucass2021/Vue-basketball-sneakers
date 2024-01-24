@@ -18,3 +18,10 @@ import BannerComponent from './components/BannerComponent.vue';
 }
 
 </style>
+
+<!-- 
+Pick a favicon
+Change px to rem
+
+
+-->

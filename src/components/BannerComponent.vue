@@ -69,16 +69,47 @@
 
   .banner-text-container h1{
     font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   }
 
   .banner-text-container p{
     font-size: 14px;
     max-width: 500px;
     margin:0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+
+  @media only screen and (max-width: 1400px) {
+
+    }
+
+    @media only screen and (max-width: 1000px) {
+
+    }
+
+    @media only screen and (max-width: 768px) {
+      .banner-text-container h1{
+        font-size: 30px;
+      }
+
+      .banner-text-container p{
+        font-size: 14px;
+      }
+    }
+
+    @media only screen and (max-width: 568px) {
+      .banner-text-container h1{
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 20px;
+      }
+
+      .banner-text-container p{
+        font-size: 14px;
+      }
+    }
+
 </style>
 
-<!-- Pick a font
-Fix banner in mobile -->
   
 
