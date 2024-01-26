@@ -1,17 +1,25 @@
 <template>
     <div class="sneaker-container">
         <div class="img-container">
-            <img src="../assets/sneakers/jordan/jordan-green.png" alt="">
+            <img :src="props.img" alt="">
         </div>
         <div class="text-container">
-            <h4>Air Jordan 1 Mid Dutch Green</h4>
-            <h5>Tênis Air Jordan</h5>
-            <p>R$ 1199,99</p>
+            <h4>{{ props.name }}</h4>
+            <h5>{{ props.brand }}</h5>
+            <p>{{ props.price }}</p>
         </div>
     </div>
 </template>
 
 <script setup>
+    import { defineProps } from 'vue';
+
+    const props = defineProps({
+        img: String,
+        name: String,
+        brand: String, 
+        price: String,
+    })
 
 </script>
 
