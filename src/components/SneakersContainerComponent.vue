@@ -22,13 +22,32 @@
   
           <q-tab-panels v-model="tab" animated class="card-container">
             <q-tab-panel name="jordan">
-                <div class="cards">
+              <div class="cards">
+                <div class="row">
+                  <div class="col-4">
                     <SneakerComponent/>
+                  </div>
+                  <div class="col-4">
                     <SneakerComponent/>
+                  </div>
+                  <div class="col-4">
                     <SneakerComponent/>
-                    <SneakerComponent/>
+                  </div>
                 </div>
+                <div class="row">
+                  <div class="col-4">
+                    <SneakerComponent/>
+                  </div>
+                  <div class="col-4">
+                    <SneakerComponent/>
+                  </div>
+                  <div class="col-4">
+                    <SneakerComponent/>
+                  </div>
+                </div>
+              </div>
             </q-tab-panel>
+
   
             <q-tab-panel name="lebron">
               <div class="text-h6">Alarms</div>
@@ -47,7 +66,7 @@
   
 <script setup>
     import { ref } from 'vue'
-import SneakerComponent from './SneakerComponent.vue';
+    import SneakerComponent from './SneakerComponent.vue';
 
     const tab = ref('jordan')
 
@@ -75,8 +94,8 @@ import SneakerComponent from './SneakerComponent.vue';
     font-size: 18px;
 }
 
-.card-container .cards{
-    display: flex;
+.cards .row{
+  margin: 100px 0px;
 }
 
 </style>
