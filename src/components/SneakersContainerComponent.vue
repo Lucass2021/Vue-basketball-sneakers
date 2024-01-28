@@ -24,53 +24,27 @@
             <q-tab-panel name="jordan">
               <div class="cards">
                 <div class="row">
-                  <div class="col-4">
+                  <div class="col-4 col-md-4 col-sm-12">
                     <SneakerComponent 
                       :img="require('@/assets/sneakers/jordan/jordan-green.png')" 
                       name="Air Jordan 1 Mid Dutch Green" 
-                      brand="Tênis Air Jordan" 
+                      brand="Air Jordan Shoes" 
                       price="R$ 1199,99"
                     />
                   </div>
-                  <div class="col-4">
+                  <div class="col-4 col-md-4 col-sm-12">
                     <SneakerComponent 
                       :img="require('@/assets/sneakers/jordan/jordan-green.png')" 
                       name="Air Jordan 1 Mid Dutch Green" 
-                      brand="Tênis Air Jordan" 
+                      brand="Air Jordan Shoes" 
                       price="R$ 1199,99"
                     />
                   </div>
-                  <div class="col-4">
+                  <div class="col-4 col-md-4 col-sm-12">
                     <SneakerComponent 
                       :img="require('@/assets/sneakers/jordan/jordan-green.png')" 
                       name="Air Jordan 1 Mid Dutch Green" 
-                      brand="Tênis Air Jordan" 
-                      price="R$ 1199,99"
-                    />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-4">
-                    <SneakerComponent 
-                      :img="require('@/assets/sneakers/jordan/jordan-green.png')" 
-                      name="Air Jordan 1 Mid Dutch Green" 
-                      brand="Tênis Air Jordan" 
-                      price="R$ 1199,99"
-                    />
-                  </div>
-                  <div class="col-4">
-                    <SneakerComponent 
-                      :img="require('@/assets/sneakers/jordan/jordan-green.png')" 
-                      name="Air Jordan 1 Mid Dutch Green" 
-                      brand="Tênis Air Jordan" 
-                      price="R$ 1199,99"
-                    />
-                  </div>
-                  <div class="col-4">
-                    <SneakerComponent 
-                      :img="require('@/assets/sneakers/jordan/jordan-green.png')" 
-                      name="Air Jordan 1 Mid Dutch Green" 
-                      brand="Tênis Air Jordan" 
+                      brand="Air Jordan Shoes" 
                       price="R$ 1199,99"
                     />
                   </div>

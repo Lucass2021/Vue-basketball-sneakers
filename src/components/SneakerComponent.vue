@@ -32,6 +32,10 @@
         align-items: center;
         flex-direction: column;
     }
+
+    .sneaker-container:hover{
+        cursor: pointer;
+    }
     .img-container img{
         width: 300px;
         background: #F3F7FF;
@@ -60,6 +64,13 @@
     .text-container p{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 20px;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .text-container{
+            text-align: center;
+            margin-bottom: 50px;
+        }
     }
 
 </style>
