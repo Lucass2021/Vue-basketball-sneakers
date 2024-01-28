@@ -37,48 +37,48 @@
         cursor: pointer;
     }
     .img-container img{
-        width: 300px;
+        width: 18.75rem;
         background: #F3F7FF;
-        padding:30px;
+        padding:1.875rem;
     }
 
     .text-container{
-        width: 300px;
+        width: 18.75rem;
     }
 
     .text-container h4{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 18px;
-        line-height: 20px;
-        margin-top: 20px;
-        margin-bottom: 5px;
+        font-size: 1.125rem;
+        line-height: 1.25rem;
+        margin-top: 1.25rem;
+        margin-bottom: 0.313rem;
     }
 
     .text-container h5{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 18px;
-        margin-bottom: 10px;
+        font-size: 1.125rem;
+        margin-bottom: 0.625rem;
         color: #7CA2F4;
     }
 
     .text-container p{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     @media only screen and (max-width: 1000px) {
         .text-container{
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 3.125rem;
         }
 
         .text-container:last-child{
-            margin-bottom: 0px;
+            margin-bottom: 0;
         }
 
         .img-container img{
-            width: 200px;
-            padding: 20px;
+            width: 12.5rem;
+            padding: 1.25rem;
         }
     }
 

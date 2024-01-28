@@ -62,50 +62,43 @@
   
   .banner-text-container {
     position: relative; 
-    padding: 50px;
+    padding: 3.125rem;
     color: #fff;
     text-align: center;
   }
 
   .banner-text-container h1{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   }
 
   .banner-text-container p{
-    font-size: 14px;
-    max-width: 500px;
+    font-size: 0.875rem;
+    max-width: 31.25rem;
     margin:0 auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
-  @media only screen and (max-width: 1400px) {
-
-    }
-
-    @media only screen and (max-width: 1000px) {
-
-    }
 
     @media only screen and (max-width: 768px) {
       .banner-text-container h1{
-        font-size: 30px;
+        font-size: 1.875rem;
       }
 
       .banner-text-container p{
-        font-size: 14px;
+        font-size: 0.875rem;
       }
     }
 
     @media only screen and (max-width: 568px) {
       .banner-text-container h1{
-        font-size: 26px;
-        line-height: 32px;
-        margin-bottom: 20px;
+        font-size: 1.625rem;
+        line-height: 2rem;
+        margin-bottom: 1.25rem;
       }
 
       .banner-text-container p{
-        font-size: 14px;
+        font-size: 0.875rem;
       }
     }
 

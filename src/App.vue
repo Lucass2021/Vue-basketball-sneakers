@@ -14,16 +14,10 @@ import SneakersContainerComponent from './components/SneakersContainerComponent.
 
 <style>
 *{
-  margin:0px;
-  padding:0px;
+  margin:0;
+  padding:0;
   box-sizing: border-box;
 }
 
 </style>
 
-<!-- 
-Pick a favicon
-Change px to rem
-
-
--->

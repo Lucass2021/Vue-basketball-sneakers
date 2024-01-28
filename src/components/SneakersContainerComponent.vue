@@ -208,28 +208,28 @@
 
 <style>
 .container{
-    padding:50px;
+    padding:3.125rem;
 }
 
 .about-section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .about-section h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .about-section p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .cards .row{
-  margin: 100px 0px;
+  margin: 6.25rem 0rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -238,15 +238,13 @@
   }
 
   .cards .row{
-    margin: 50px 0px;
+    margin: 3.125rem 0rem;
   }
 
   .q-tab-panel{
-    padding:0px !important;
+    padding:0rem !important;
   }
-}
 
-@media only screen and (max-width: 1000px) {
   .card-container .row .col-lg-4{
     width: 100%;
   }
@@ -261,11 +259,11 @@
 
 @media only screen and (max-width: 568px) {
   .about-section h2{
-    font-size: 26px;
+    font-size: 1.625rem;
   }
 
   .about-section p{
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
   }
 }
