@@ -71,6 +71,15 @@
             text-align: center;
             margin-bottom: 50px;
         }
+
+        .text-container:last-child{
+            margin-bottom: 0px;
+        }
+
+        .img-container img{
+            width: 200px;
+            padding: 20px;
+        }
     }
 
 </style>

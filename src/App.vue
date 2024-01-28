@@ -22,8 +22,6 @@ import SneakersContainerComponent from './components/SneakersContainerComponent.
 </style>
 
 <!-- 
-Add content for lebron and kobe
-make responsive
 Pick a favicon
 Change px to rem
 
